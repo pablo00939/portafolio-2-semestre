@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #35424a;
+    background: red;
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -37,7 +37,7 @@ main {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #35424a;
+    background: #ff1e00;
     color: #ffffff;
     position: relative;
     bottom: 0;
@@ -52,7 +52,7 @@ footer {
     padding: 15px;
 }
 
-.button {
+.button1 {
     background-color: #5cb85c;
     color: white;
     border: none;
@@ -66,7 +66,7 @@ footer {
     border-radius: 5px;
 }
 
-.button:hover {
+.button1:hover {
     background-color: #4cae4c;
 }
 

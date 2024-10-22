@@ -6,28 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Portafolio Pablo</title>
-
 </head>
 
 <body>
     <header>
-        <h1 class="h1-1">Bienvenido a mi Portafolio</h1>
+
+        <h1>Bienvenido a mi Portafolio</h1>
         <nav class="nav-1">
             <a href="#home">Quien Soy</a>
             <a href="#about">Mis Gustos </a>
             <a href="#contact">Contacto</a>
         </nav>
+
     </header>
+    
+
 
     <main>
         <div class="card">
-            <h3>¿Quien Soy?</h3>
+            <h3 id="home">¿Quien Soy?</h3>
             <img class="img-1" src="img/pablo.jpeg" alt="">
             <p>Hola soy pablo tapia tengo 19 años y me dedico a programar, vivo en la comuna san ramon en la
                 poblacion la bandera.</p>
         </div>
 
-        <h2 class="h2-1">Contenido Principal</h2>
+        <h2 id="about" class="h2-1">Contenido Principal</h2>
         <div class="itemns1">
             <div class="product">
                 <h2>Estrellas de rock </h2>
@@ -65,11 +68,13 @@
         </div>
 
         <div class="card">
-            <h3>Contacto</h3>
-            <p>instagram: p._1902 </p>
+            <h3 id="contact">Contacto</h3>
+            <p>Instagram: p._1902 </p>
             <p>Whatsapp:+56900000077</p>
+            <p>Gmail:pablotapiaconcha@gmail.com</p>
         </div>
-        <button class="button" id="alertButton">Haz clic aquí</button>
+
+        <button class="button1" id="alertButton">Haz clic aquí</button>
     </main>
     <footer>
         <p>&copy; 2024 Mi Portafolio </p>
@@ -78,8 +83,11 @@
     </footer>
     <script>
         document.getElementById('alertButton').onclick = function () {
-            alert('¡Hola! Me presento soy Pablo y este es mi portafolio.');
+            alert('¡Hola! Espero que les haya gustado mi portafilio .');
         };
+
+    
+
     </script>
 </body>
 
